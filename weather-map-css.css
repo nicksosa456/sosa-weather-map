@@ -1,0 +1,42 @@
+/*colors:*/
+/*FBFCFC*/
+/*839DAE*/
+/*A1C3D3*/
+/*7B95AA*/
+/*19396C*/
+
+body {
+    background: #19396C;
+    color: #FBFCFC;
+}
+.large-font {
+    font-size: 2em;
+}
+.column {
+    border: 2px solid black;
+    text-align: center;
+}
+.day {
+    background: #A1C3D3;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
+.mapboxgl-marker {
+    cursor: pointer;
+}
+.weather-icon {
+    height: auto;
+    width: 125px;
+}
+.fahrenheit {
+    height: auto;
+    width: 100px;
+    content:url("img/fahrenheit.svg");
+}
+.celsius {
+    height: auto;
+    width: 100px;
+    content:url("img/celsius.svg");
+}
